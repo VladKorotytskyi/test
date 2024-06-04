@@ -1,0 +1,38 @@
+// .header{
+//     background-color: $background_color;
+//     padding-top: 60px;
+//     padding-bottom: 40px;
+// }
+// .header__logo-img{
+//     color: $logoColor;
+//     padding-top: 30px;
+//     padding-bottom: 30px;
+// }
+// .header__list{
+//     color: $text-color;
+//     padding-top: 30px;
+//     padding-bottom: 30px;
+// }
+// .header__item-list{
+
+// }
+.header{
+    background-color: $background_color;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    &__logo-img{
+        color: $logoColor;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    &__list{
+    color: $text-color;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    &:hover,
+    &:focus{
+        color: $logoColor;
+       }
+    }  
+}
